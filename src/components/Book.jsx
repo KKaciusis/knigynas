@@ -7,7 +7,7 @@ function Book(props) {
             <div className="title">{props.data.title}</div>
             <img src={props.img} alt="Kojniu fabrikas uzdarytas"></img>
             <button className="btn" onClick={()=> props.buy(props.id)}><span class="noselect">Pirkti</span></button>
-            <div className="price"><h4>Kaina:</h4>&nbsp;{props.data.price}</div>
+            <div className="price"><h4>Kaina:</h4>&nbsp;{props.data.price}€</div>
             
         </div>
     );
